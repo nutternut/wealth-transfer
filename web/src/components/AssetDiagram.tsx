@@ -625,8 +625,6 @@ function DiagramCanvas() {
             className="!m-3 !overflow-hidden !rounded-2xl !border !border-slate-100 !bg-white/95 !shadow-md"
           />
           <MiniMap
-            width={56}
-            height={36}
             nodeStrokeWidth={1.5}
             pannable
             zoomable
@@ -636,7 +634,7 @@ function DiagramCanvas() {
                 : "#fff"
             }
             maskColor="rgba(15, 23, 42, 0.06)"
-            className="!m-3 !overflow-hidden !rounded-lg !border !border-slate-100 !bg-white !shadow-md"
+            className="!m-3 !h-9 !w-14 !overflow-hidden !rounded-lg !border !border-slate-100 !bg-white !shadow-md"
           />
         </ReactFlow>
 
